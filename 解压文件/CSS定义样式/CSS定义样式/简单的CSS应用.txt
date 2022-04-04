@@ -1,0 +1,18 @@
+<HTML>
+  <HEAD>
+    <STYLE>
+      P
+      {
+        text-align: center;
+        color: black;
+        font-family: arial
+      }
+    </STYLE>
+  </HEAD>
+  <BODY>
+    <H3 align="right" color="blue">
+      利用HTML标签很复杂
+    </H1>
+    <P>利用 CSS 更简单</P>
+  </BODY>
+</HTML>

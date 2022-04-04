@@ -1,0 +1,12 @@
+<HTML>
+  <HEAD>
+    <STYLE>
+      h1, h2, h3, h4, h5, h6 {color:green}
+    </STYLE>
+  </HEAD>
+  <BODY>
+    <H1>直接使用H1标签</H1>
+    <H3>直接使用H3标签</H3>
+    <H2 align=right>使用H2标签并加上右对齐</H2>
+  </BODY>
+</HTML>

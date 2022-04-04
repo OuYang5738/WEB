@@ -1,0 +1,23 @@
+<HTML>
+
+
+<HEAD>
+
+<style>
+  input.inputsize{font-size:30px}
+  </style>
+<script language="JavaScript" type="text/javascript">
+<!--
+  function checkPassword(testObject) {
+    if (testObject.value.length < 4) {
+      alert("密码长度不得小于4");
+      testObject.focus();
+      testObject.select();
+    }
+  }
+//-->
+</script>
+</HEAD>
+<BODY>
+  <INPUT class=inputsize TYPE="text" onBlur="checkPassword(this)">
+</BODY>

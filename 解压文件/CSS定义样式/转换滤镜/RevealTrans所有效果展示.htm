@@ -1,0 +1,22 @@
+<HTML> 
+  <HEAD><TITLE>blendTrans所有效果展示</TITLE> 
+    <SCRIPT language="JavaScript"> 
+      var i = 0;
+      function trans()
+      {
+	obj = document.all["cat"];
+	obj.filters.item(0).Transition = i
+	obj.filters.item(0).apply();
+	obj.src = "cat"+(i%2)+".jpg"
+	obj.filters.item(0).play();
+	status = "第" + i + "种效果";
+	if(i<24) i++;	
+	else  i=0;
+      }
+    </SCRIPT>
+  <BODY> 
+    <INPUT TYPE="button" VALUE="转换" onClick="trans()">
+    <BR>
+    <IMG ID="cat" SRC="cat1.jpg" STYLE="filter:revealtrans(duration=1)">
+  </BODY> 
+</HTML> 

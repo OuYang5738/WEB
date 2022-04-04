@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>onBlur事件</title>
+  <style>
+  input.inputsize{font-size:30px}
+  </style>
+</head>
+<body>
+<form>
+  口令：<input class=inputsize name="kouling" type="text" onBlur=confirm("口令错误，请重新输入！")>
+  <input class=inputsize name="anniu" type="button" value="确定">
+  
+</form> 
+</body>
+</html>

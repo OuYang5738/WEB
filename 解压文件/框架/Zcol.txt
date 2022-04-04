@@ -1,0 +1,7 @@
+<HTML>
+  <HEAD><TITLE>Z color</TITLE>
+  </HEAD>
+  <BODY bgcolor=aa33ff text=aaffaa>
+  <H2>Z</H2>
+  </BODY>
+</HTML>

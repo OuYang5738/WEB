@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>if语句的使用</title>
+</head>
+<body>
+  <script language="javascript">
+    function rec(form){
+      var a=form.recshort.value;
+      {
+      if (a>60)
+        alert("及格");
+      else
+        alert("不及格");
+       }
+    }
+  </script>
+  <form>
+    
+    <input type="text" name="recshort"><br>
+    
+  
+    <input name="button" type="button" onclick="rec(this.form)" value="显示">
+   
+  </form>
+</body>
+</html>

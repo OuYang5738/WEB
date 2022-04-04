@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>调用无参函数</title>
+ 
+</head>
+<body>
+  <script language="javascript">
+    function rec(){
+    alert("程序运行正确")
+    }
+  </script>
+  <form>
+    <input name"button" type="button" onclick="rec()" value="运行程序">
+    <br>
+  </form>
+  
+</body>
+</html>

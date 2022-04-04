@@ -1,0 +1,15 @@
+<script language="JavaScript" type="text/javascript">
+<!--
+  function getEvent(evnt) {
+  eventWin = open ('','','width=200,height=100');
+    with (eventWin.document) { 
+      write("事件类型：", event.type);
+      write("<br>鼠标的x坐标：", event.screenX);
+      write("<br>鼠标的y坐标：", event.screenY);
+    }
+  }
+ 
+  document.write ("单击...")
+  document.onmousedown = getEvent;
+//-->
+</script>

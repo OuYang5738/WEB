@@ -1,0 +1,37 @@
+<HTML>
+  <HEAD>
+    <Script Lauguage="JavaScript">
+    <!--
+      function getFocus(obj) {
+        obj.style.color='red';
+        obj.style.background='#DBDBDB';
+      }
+      function getBlur(obj) {
+        obj.style.color='black';
+        obj.style.background='white';
+      }
+      function isInt(elm) {
+        if (isNaN(elm)) {
+          alert("你输入的是" + elm + "\n不是数字！");
+          document.form1.pw.value = "";
+          return false;
+        }
+        if (elm.length != 4) {
+          alert("请输入四位数数字！");
+          document.form1.pw.value = "";
+          return false;
+        }
+      }
+    //-->
+    </Script>
+  </HEAD>  
+  <BODY onLoad=document.form1.name.focus()>
+    <FORM NAME="form1" onSubmit="return isInt(this.pw.value)">
+      姓名：<INPUT TYPE="text" NAME="name" onFocus=getFocus(this) onBlur=getBlur(this)><BR>
+      电话：<INPUT TYPE="text" NAME="tel" onFocus=getFocus(this) onBlur=getBlur(this)><BR>
+      请输入四位数数字密码：<BR>
+      <input type="password" name="pw" onBlur=isInt(this.pw.value)>
+      <input type="submit" value="检查">
+    </FORM>
+  </BODY>
+</HTML>

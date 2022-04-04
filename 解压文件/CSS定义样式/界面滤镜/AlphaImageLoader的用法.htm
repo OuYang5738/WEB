@@ -1,0 +1,22 @@
+<HTML>
+  <HEAD>
+    <TITLE>AlphaImageLoader演示</TITLE>
+<style>
+  #png_image{ 
+  background: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:200px;
+  height:200px;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.PNG',sizingMethod='image');
+}
+</style>
+  </HEAD>
+  <BODY>
+    <div id="png_image">如果载入的是PNG(Portable Network Graphics)格式的图片，则可以提供0%-100%的透明度。PNG(Portable Network Graphics)格式的图片的透明度不妨碍你选择文本。也就是说，你可以选择显示在PNG(Portable Network Graphics)格式的图片完全透明区域后面的内容。
+    </div>
+  </BODY>
+</HTML>
+
+

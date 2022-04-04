@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>算术运算符的使用</title>
+</head>
+<body>
+  <script language="javascript">
+    function rec(form){
+      var a=2;
+      var b=1;
+      if (b<a)
+      form.recanswers.value=(form.recshort.value*form.recheight.value+form.reclength.value*form.recheight.value)/2;
+    }
+  </script>
+  <form>
+    <h1>梯形面积</h1>
+    上底
+    <input type="text" name="recshort"><br>
+    下底
+    <input type="text" name="reclength"><br>
+    高度
+    <input type="text" name="recheight"><br>
+    <input name="button" type="button" onclick="rec(this.form)" value="面积">
+    <br>
+    <input type="text" name="recanswers"><br>
+  </form>
+</body>
+</html>

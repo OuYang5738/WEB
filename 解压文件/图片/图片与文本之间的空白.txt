@@ -1,0 +1,19 @@
+<HTML>
+  <HEAD>
+    <TITLE>图片与文本之间的空白</TITLE>
+    <font face="宋体" size="30">
+  </HEAD>
+  <BODY>
+     <img src="figure_small.jpg" width=200 height=150 hspace=5 vspace=5>图1</img>
+     <BR>
+     <img src="figure_small.jpg" width=200 height=150 hspace=20 vspace=20>图2</img>
+     <BR>
+     <img src="figure_small.jpg" width=200 height=150 hspace=40 vspace=40>图3</img>
+     <BR>
+     <img src="figure_small.jpg" width=200 height=150 hspace=20 vspace=20>图4</img>
+     <BR>
+     <img src="figure_small.jpg" width=200 height=150 hspace=5 vspace=5>图5</img>
+     <BR>
+
+  </BODY>
+</HTML>

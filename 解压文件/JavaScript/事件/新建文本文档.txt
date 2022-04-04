@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+<script  language=“JavaScript”  for=“window”  event=“onload”>
+     alert(‘网页读取已经完成，请欣赏!’) 
+</script>
+</body>
+</html>

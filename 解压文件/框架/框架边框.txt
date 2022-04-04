@@ -1,0 +1,12 @@
+<HTML>
+  <HEAD><TITLE>各窗口边框的设置</TITLE>
+  </HEAD>
+  <FRAMESET rows="30%,*">
+    <FRAME src="Xcol.html" frameborder=yes>
+    <FRAMESET cols="30%,*">
+      <FRAME src="Xcol.html" frameborder=no>
+      <FRAME src="Xcol.html" frameborder=no>
+    </FRAMESET>
+  </FRAMESET>
+
+</HTML>

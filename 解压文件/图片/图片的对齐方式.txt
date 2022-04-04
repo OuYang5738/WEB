@@ -1,0 +1,19 @@
+<HTML>
+  <HEAD>
+    <TITLE>图形展示</TITLE>
+    <font face="宋体" size="30">
+  </HEAD>
+  <BODY>
+     <img src="figure_small.jpg" alt="居中的图" align=center>居中</img>
+     <BR>
+     <P align=left><img src="figure_small.jpg" alt="左边的图">居左</img>
+     <BR>
+     <P align=center><img src="figure_small.jpg" alt="居中的图">居中</img>
+     <BR>
+     <P align=right><img src="figure_small.jpg" alt="右边的图">居右</img>
+     <BR>
+     <center><img src="figure_small.jpg" alt="居中的图">居中</img><center>
+     <BR>
+
+  </BODY>
+</HTML>

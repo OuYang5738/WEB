@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>if语句的使用</title>
+  <style>
+  input.inputsize{font-size:30px}
+  </style>
+</head>
+<body>
+  <script language="javascript">
+    function chengji(form){
+      var a=form.chengjiinput.value;
+      {
+      if (a>60)
+        {alert("及格");}
+      else
+        alert("不及格");
+       }
+    }
+  </script>
+  <form>
+    
+    <input class=inputsize type="text" name="chengjiinput"><br>
+    
+  
+    <input class=inputsize name="button" type="button" onclick="chengji(this.form)" value="显示">
+   
+  </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>witch语句的使用</title>
+  <style>
+  input.inputsize{font-size:30px}
+  </style>
+</head>
+<body>
+  <script language="javascript">
+    function rec(form){
+      var a=form.recshort.value+1;
+      switch(a){
+       case 90:{
+         document.write("优秀");
+         break;}
+       case 80:{
+         document.write("良好");
+         break;}
+       case 70 :{
+         document.write("中等");
+         break;}
+       case a>60:{
+         document.write("及格");
+         break;}
+       default:{
+         document.write("不及格");
+         break;}
+        }
+       
+    }
+  </script>
+  <form>
+ 
+    <input class=inputsize type="text" name="recshort"><br>
+    
+  
+    <input class=inputsize name="button" type="button" onclick="rec(this.form)" value="显示">
+    
+   
+  </form>
+</body>
+</html>

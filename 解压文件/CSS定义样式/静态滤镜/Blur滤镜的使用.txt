@@ -1,0 +1,9 @@
+<HTML>
+  <HEAD>
+    <TITLE>ÂË¾µBlurµÄÓÃ·¨</TITLE>
+  </HEAD>
+  <BODY>
+    <IMG SRC="image.jpg" WIDTH="150">
+    <IMG SRC="image.jpg" WIDTH="150" STYLE="filter:progid:DXImageTransform.Microsoft.Blur(makeShadow=false,pixelRadius=3,shadowOpacity=0);">
+  </BODY>
+</HTML>

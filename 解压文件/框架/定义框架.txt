@@ -1,0 +1,13 @@
+<HTML>
+  <HEAD><TITLE>¿ò¼ÜÑÝÊ¾</TITLE>
+  </HEAD>
+  <FRAMESET cols="120,*">
+    <FRAME src="http://sina.com.cn/">
+    <FRAMESET row="100,*">
+      <FRAME src="http://sohu.com">
+      <FRAME src="http://163.com">
+    </FRAMESET>
+  </FRAMESET>
+ <BODY>
+ </BODY>
+</HTML>

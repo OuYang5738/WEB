@@ -1,0 +1,63 @@
+<html>
+<head>
+  <title>用户密码修改</title>
+  <style>
+  input.inputsize{font-size:30px}
+  td{font-size:30px}
+  </style>
+</head>
+<body>
+  <script language="javascript">
+    function rec(form){
+    var a=form.text1.value;
+    var b=form.textf.value;
+    var c=form.texts.value;
+      {
+        if(c==b)
+          alert("恭喜 修改成功!");
+        else
+          alert("对不起 两次输入密码不一致!");
+       }
+     }
+
+    function re(form){
+      form.text1.value="";
+      form.textf.value="";
+      form.texts.value="";
+    }
+    
+  </script>
+  <form>
+    <table width="600" border="1">
+    <tr>
+      <td colspan="3">用户密码修改</td>
+    </tr>
+
+    <tr>
+      <td width="1">&nbsp;</td>
+      <td width="300">旧密码：</td>
+      <td width="250"><input class=inputsize type="password" name="text1"></td>
+    </tr>
+
+    <tr>
+      <td>&nbsp;</td>
+      <td>新密码：</td>
+      <td><input class=inputsize type="password" name="textf"></td>
+    </tr>
+   
+    <tr>
+      <td>&nbsp;</td>
+      <td>重新输入密码：</td>
+      <td><input class=inputsize type="password" name="texts"></td>
+    </tr>
+
+    <tr>
+      <td>&nbsp;</td>
+      <td><input class=inputsize type="button" name="button" value="提交" onclick="rec(this.form)"></td>
+      <td><input class=inputsize type="reset" name="reset" value="重置" onclick="re(this.form)"></td>
+    </tr>
+    </table>
+  </form>
+  
+</body>
+</html>

@@ -1,0 +1,25 @@
+<HTML>
+  <HEAD>
+    <Script Lauguage="JavaScript">
+    <!--
+      function linkGetter() {
+        msgWindow = open('','','width=250,height=200')
+        msgWindow.document.write("共有" + document.links.length + "个搜索引擎")
+        for(i=0; i < document.links.length; i++) {
+         msgWindow.document.write("<LI>"+document.links[i])
+        }
+      }
+    //-->
+    </Script>
+  </HEAD>  
+  <BODY>
+    常用的搜索引擎：<BR>
+    <A HREF="http://www.sohu.com/">搜狐</A>
+    <A HREF="http://www.baidu.com.cn/">百度</A>
+    <A HREF="http://chinese.yahoo.com.cn/">雅虎</A>
+    <A HREF="http://www.google.com/">谷歌</A>
+    <INPUT TYPE="button" VALUE="网址一览" onClick="linkGetter()">
+  </BODY>
+</HTML>
+
+

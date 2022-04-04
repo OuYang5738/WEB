@@ -1,0 +1,15 @@
+<HTML>
+  <HEAD>
+    <STYLE>
+      a.red:link {color: #FF0000}
+      a.red:visited {color: #0000FF}
+      a.blue:link {color: #00FF00}
+      a.blue:visited {color: #FF00FF}
+    </STYLE>
+  </HEAD>
+  <BODY>
+    <a class="red" href="http://www.sohu.com">这是采用red类的一组链接</a> 
+    <br>
+    <a class="blue" href="http://www.sohu.com">这是采用blue类的一组链接</a>
+  </BODY>
+</HTML>

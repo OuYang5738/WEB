@@ -1,0 +1,26 @@
+<HTML>
+  <HEAD>
+    <Script Lauguage="JavaScript">
+    <!--
+      function count() {
+        var checkCount=0;
+        var num = document.form1.elements.length;
+        for (var i=0; i<num; i++) {
+          if (document.form1.elements[i].checked)
+          checkCount++;
+        }
+        alert ("你喜欢 "+ checkCount + "种颜色。")
+      }
+    //-->
+    </Script>
+  </HEAD>  
+  <BODY>
+    <FORM NAME=form1>
+      请选择你喜欢的颜色：<BR>
+      <INPUT TYPE="checkbox" NAME="red">红色
+      <INPUT TYPE="checkbox" NAME="green">绿色
+      <INPUT TYPE="checkbox" NAME="blue">蓝色<BR>
+      <INPUT TYPE="button" VALUE="请单击" onClick=count()>
+    </FORM>
+  </BODY>
+</HTML>

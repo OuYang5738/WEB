@@ -1,0 +1,26 @@
+<script language="JavaScript" type="text/javascript">
+<!--
+  var arrA = [6,2,4,3,5,1]; 
+  function desc(x,y) 
+  { 
+    if (x > y)   
+      return -1; 
+    if (x < y)           
+      return 1; 
+  } 
+  function asc(x,y) 
+  { 
+    if (x > y)   
+      return 1; 
+    if (x < y)           
+      return -1; 
+  } 
+  arrA.sort(desc);   //°´½µĞòÅÅĞò 
+  document.writeln(arrA); 
+  document.writeln("<br>"); 
+  arrA.sort(asc);    //°´ÉıĞòÅÅĞò 
+  document.writeln(arrA);//
+//-->
+</script>
+
+

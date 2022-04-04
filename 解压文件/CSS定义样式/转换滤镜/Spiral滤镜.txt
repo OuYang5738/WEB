@@ -1,0 +1,15 @@
+<HTML>
+  <HEAD><TITLE>SpiralÂË¾µ</TITLE>
+    <script language="JavaScript">
+      function show()
+      {
+        wwm.filters.item(0).apply();
+        wwm.src="cat0.jpg";
+        wwm.filters.item(0).play();
+      }
+    </script>
+  </HEAD>
+  <BODY>
+    <IMG src="image.jpg" id="wwm" onclick="show()" style="filter:progid:DXImageTransform.Microsoft.Spiral(duration=1,gridSizeX=20,gridSizeY=30);width:333;height:222;">
+  </BODY>
+</HTML>

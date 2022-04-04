@@ -1,0 +1,11 @@
+<HTML>
+  <HEAD><TITLE>Alpha—› æ</TITLE>
+  </HEAD>
+  <BODY>
+    <IMG SRC="image.jpg" WIDTH="150">
+    <IMG SRC="image.jpg" WIDTH="150"
+      STYLE="filter:alpha(opacity:60)">
+    <IMG SRC="image.jpg" WIDTH="150"
+      STYLE="filter:alpha(opacity:60, style:1)">
+  </BODY>
+</HTML>

@@ -1,0 +1,69 @@
+<HTML>
+  <HEAD><TITLE>自定义函数实例</TITLE>
+    <SCRIPT language="JavaScript">
+      var epsilon = 0.00000000001; // 一些需要测试的极小数字。
+      // 测试整数的函数。
+      function integerCheck(a, b, c)
+      {
+         // 测试。
+         if ( (a*a) == ((b*b) + (c*c)) )
+           return true;
+         else
+           return false;
+      }
+      // 测试浮点数的函数。
+      function floatCheck(a, b, c)
+      {
+         // 得到测试数值。
+         var delta = ((a*a) - ((b*b) + (c*c)))
+         // 测试需要绝对值
+         delta = Math.abs(delta);
+         // 如果差小于 epsilon，那么它相当接近。
+         if (delta < epsilon)
+           return true;
+         else
+           return false;
+      }
+
+      // 三元检查。
+      function checkTriplet(a, b, c)
+      {
+         // 创建临时变量，用于交换值
+         var d = 0; 
+         // 先将最长的移动到位置“a”。需要的话交换 a 和 b
+         if (b > a)
+         {
+            d = a; a = b; b = d;
+         }
+         // 需要的话交换 a 和 c
+         if (c > a)
+         {
+            d = a; a = c; c = d;
+         }
+         // 测试全部的 3 个值，看其是否为整数？
+         if (((a % 1) == 0) && ((b % 1) == 0) && ((c % 1) == 0))
+         {
+            // 如果成立，使用精确检查。
+            return integerCheck(a, b, c);
+         }
+         else
+         {
+            // 如果不成立，取尽可能相近的。
+            return floatCheck(a, b, c);
+         }
+      } 
+      // 下面的三个语句赋给范例值，用于测试。
+      var sideA = 3;
+      var sideB = 4;
+      var sideC = 5; //try float
+      // 调用函数。调用后，'result' 中包含了结果。
+      var result = checkTriplet(sideA, sideB, sideC);
+      if(result)       
+        document.write('成立！');
+      else
+        document.write('不成立！');
+    </SCRIPT>
+  </HEAD>
+  <BODY>
+  </BODY>
+</HTML>

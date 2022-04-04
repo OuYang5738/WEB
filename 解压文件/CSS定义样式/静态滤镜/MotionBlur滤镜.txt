@@ -1,0 +1,11 @@
+<HTML>
+  <HEAD>
+    <TITLE>ÂË¾µMotionBlurµÄÓÃ·¨</TITLE>
+  </HEAD>
+  <BODY>
+  <IMG SRC="image.jpg" WIDTH="150"> 
+  <IMG SRC="image.jpg" WIDTH="150" STYLE="filter:progid:DXImageTransform.Microsoft.MotionBlur(add=false,direction=135,strength=8);">
+  </BODY>
+</HTML>
+
+

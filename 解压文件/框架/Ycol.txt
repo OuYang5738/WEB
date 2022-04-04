@@ -1,0 +1,7 @@
+<HTML>
+  <HEAD><TITLE>Y color</TITLE>
+  </HEAD>
+  <BODY bgcolor=3333ff text=ffffaa>
+  <H2>Y</H2>
+  </BODY>
+</HTML>

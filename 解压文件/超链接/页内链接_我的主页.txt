@@ -1,0 +1,30 @@
+<HTML>
+  <HEAD><TITLE>我的主页</TITLE></HEAD>
+    <BODY link=red alink=blue vlink=green>
+      <A name="main"></A>
+      <H2 align=center><B>欢迎来到我的主页</B></H2>
+      <Font size=20 color=purple>
+        <Center>
+          <A href="#new">最新更新</A>&nbsp;&nbsp;&nbsp;&nbsp;
+          <A href="#self">我的自传</A>&nbsp;&nbsp;&nbsp;&nbsp;
+          <A href="#message">给我留言</A>&nbsp;&nbsp;&nbsp;&nbsp; <P>
+        </Center>
+      </Font>
+      <A name="new"></A>
+        最新更新<BR>
+        ...<BR>...<BR>...<BR>...<BR>
+        <DIV align=center><A href="#main">返回</A></DIV><P>
+      <A name="self"></A>
+        我的自传<BR>
+        ...<BR>...<BR>...<BR>...<BR>
+        <DIV align=center><A href="#main">返回</A></DIV><P>
+      <A name="message"></A>
+        给我留言<BR>
+        ...<BR>...<BR>...<BR>...<BR>
+        <DIV align=center><A href="#main">返回</A></DIV><P>
+   </BODY>
+</HTML>
+
+
+
+

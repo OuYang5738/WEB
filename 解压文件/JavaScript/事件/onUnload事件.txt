@@ -1,0 +1,12 @@
+<html>
+<head>
+  <title>onUnload事件</title>
+  <style>
+  input.inputsize{font-size:30px}
+  </style>
+</head>
+<body onUnload=confirm('真的要退出页面，请单击确定。')>
+  
+  
+</body>
+</html>

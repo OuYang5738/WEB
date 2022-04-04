@@ -1,0 +1,17 @@
+<HTML>
+  <HEAD>
+    <STYLE>
+      p{color: #FF0000!important}
+      .blue{color: #0000FF}
+      #id1{color: #FFFF00}
+
+    </STYLE>
+  </HEAD>
+  <BODY>
+    <div>
+      <p>
+        这个段落的文字为蓝色9号字
+      </p>
+    </div>
+  </BODY>
+</HTML>

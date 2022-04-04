@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>onChange事件</title>
+  <style>
+  input.inputsize{font-size:30px}
+  </style>
+</head>
+<body>
+  
+  <form>
+    
+      <input class=inputsize type="text" name="change" value="欢迎光临!" onChange=alert('谢谢光临！')>
+  
+
+  </form>
+  
+</body>
+</html>

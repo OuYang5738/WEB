@@ -1,0 +1,16 @@
+<script language="JavaScript" type="text/javascript">
+<!--
+  var len = navigator.plugins.length;
+  with (document) {
+    write ("你的浏览器共支持" + len + "种plug-in：<BR>");
+    write ("<TABLE BORDER>")
+    write ("<CAPTION>PLUG-IN 清单</CAPTION>")
+    write ("<TR><TH> <TH>名称<TH>描述<TH>文件名")
+    for (var i=0; i<len; i++)
+      write("<TR><TD>" + i +
+        "<TD>" + navigator.plugins[i].name +
+        "<TD>" + navigator.plugins[i].description + 
+        "<TD>" + navigator.plugins[i].filename);
+} 
+//-->
+</script>

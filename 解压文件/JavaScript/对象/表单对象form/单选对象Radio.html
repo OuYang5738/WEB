@@ -1,0 +1,22 @@
+<HTML>
+  <HEAD>
+    <Script Lauguage="JavaScript">
+    <!--
+      function show() {
+        var x = "先生";
+        if (document.form1.sex[1].checked)
+          x = "小姐";
+        alert(document.form1.name.value + x);
+      }
+    //-->
+    </Script>
+  </HEAD>  
+  <BODY>
+    <FORM NAME=form1>
+      姓名：<INPUT TYPE="text" NAME="name"><BR>
+      你是：<INPUT TYPE="radio" NAME="sex" CHECKED>帅哥
+      <INPUT TYPE="radio" NAME="sex">美女<BR>
+      <INPUT TYPE="button" VALUE="请单击" onClick=show()>
+    </FORM>
+  </BODY>
+</HTML>

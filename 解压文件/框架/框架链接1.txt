@@ -1,0 +1,12 @@
+<HTML>
+  <HEAD><TITLE>¿ò¼Ü¼äµÄÁ´½Ó1</TITLE>
+  </HEAD>
+  <FRAMESET rows="30%,*">
+    <FRAME src="¿ò¼ÜÁ´½Ó2.html">
+    <FRAMESET cols="30%,*">
+      <FRAME src="¿ò¼ÜÁ´½Ó2.html">
+      <FRAME src="¿ò¼ÜÁ´½Ó2.html">
+    </FRAMESET>
+  </FRAMESET>
+
+</HTML>

@@ -1,0 +1,25 @@
+<HTML>
+  <HEAD><TITLE>框架间的链接2</TITLE><NOBR>
+  </HEAD>
+  <UL>
+  <LI> &lt;A href="框架链接1.html" target="_blank"&gt;<BR>
+  <A href="框架链接1.html" target="_blank">
+    单击此处将打开一个新的浏览器窗口来显示这三个框架
+  </A>&lt;/a&gt;  <P>
+
+  <LI> &lt;A href="框架链接1.html" target="_self"&gt;<BR>
+  <A href="框架链接1.html" target="_self">
+    单击此处将在本窗口内来显示这三个框架
+  </A>&lt;/a&gt;  <P>
+
+  <LI> &lt;A href="框架链接1.html" target="_parent"&gt;<BR>
+  <A href="框架链接1.html" target="_parent">
+    单击此处将在这3个框架的父窗口(FRAMESET)内来显示A窗口
+  </A>&lt;/a&gt;  <P>
+  
+  <LI> &lt;A href="框架链接1.html" target="_top"&gt;<BR>
+  <A href="框架链接1.html" target="_top">
+    单击此处将用整个浏览器窗口来显示A窗口
+  </A>&lt;/a&gt;  
+  </UL>
+</HTML>

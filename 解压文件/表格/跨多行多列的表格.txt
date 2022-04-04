@@ -1,0 +1,21 @@
+<HTML>
+  <HEAD>
+    <TITLE>表格</TITLE>
+    <font face="宋体" size="30">
+  </HEAD>
+  <BODY>
+    <TABLE border>
+     <TR><TH colspan="3">1班</TH>
+     <TR><TH>姓名</TH><TH>性别</TH><TH>年龄</TH>
+     <TR><TD>张三</TD><TD>男</TD><TD>23</TD>
+     <TR><TD>李四</TD><TD>女</TD><TD>21</TD>
+    </TABLE>
+    <BR>
+    <TABLE border>
+     <TR><TH rowspan="3">1班</TH>
+     <TH>姓名</TH><TH>性别</TH><TH>年龄</TH>
+     <TR><TD>张三</TD><TD>男</TD><TD>23</TD>
+     <TR><TD>李四</TD><TD>女</TD><TD>21</TD>
+    </TABLE>
+  </BODY>
+</HTML>

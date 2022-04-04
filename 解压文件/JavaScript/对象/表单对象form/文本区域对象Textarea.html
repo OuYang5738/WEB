@@ -1,0 +1,21 @@
+<HTML>
+  <HEAD>
+    <Script Lauguage="JavaScript">
+    <!--
+      function isTooLong(elm){
+        if (elm.length > 50) {
+          alert("留言内容太长，请修改后再发送....");
+          return false;
+       }
+     }
+    //-->
+    </Script>
+  </HEAD>  
+  <BODY>
+    <FORM onSubmit="return isTooLong(this.msg.value)">
+      <TEXTAREA NAME="msg" COLS="30" ROWS="5" onFocus="this.value=''">欢迎留言，不过请长话短说....
+      </textarea><BR>
+      <INPUT TYPE="submit" VALUE="留言完毕">
+    </FORM>
+  </BODY>
+</HTML>

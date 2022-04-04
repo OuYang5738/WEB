@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>onFocus事件</title>
+  <style>
+  input.inputsize{font-size:30px}
+  </style>
+</head>
+<body>
+  <script>
+    function aihao(){
+      alert("选择成功!")
+    }
+  </script>
+
+  请选择自己的兴趣爱好: <br>
+
+  <form>
+     <select name="gushi" onFocus="aihao()">
+       <option>体育</option>
+       <option>音乐</option>
+       <option>美术</option>
+       <option>其它</option>
+     </select>
+
+  
+
+  </form>
+  
+</body>
+</html>

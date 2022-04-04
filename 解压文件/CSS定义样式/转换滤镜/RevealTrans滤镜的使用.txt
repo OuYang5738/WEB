@@ -1,0 +1,15 @@
+<HTML> 
+  <HEAD><TITLE>blendTrans–ßπ˚≤‚ ‘</TITLE> 
+    <SCRIPT language="JavaScript"> 
+      function run()
+      {
+        show.filters.RevealTrans.apply(); 
+        show.src="cat1.jpg" ;
+        show.filters.RevealTrans.play(); 
+      }
+    </SCRIPT> 
+  </HEAD> 
+  <BODY> 
+    <IMG ID="show" src="cat0.jpg" onclick=run() style="filter:RevealTrans(duration=3, transition=5);"> 
+  </BODY> 
+</HTML> 

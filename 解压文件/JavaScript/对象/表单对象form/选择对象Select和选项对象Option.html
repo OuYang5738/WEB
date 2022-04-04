@@ -1,0 +1,41 @@
+<HTML>
+  <HEAD>
+    <Script Lauguage="JavaScript">
+    <!--
+      function createOptions(){
+        sel1 = document.form1.select1;
+        sel2 = document.form1.select2;
+        var num = sel1.selectedIndex;
+        if (num > 1) {
+          var option = new Option(sel1.options[num].text);
+          var item = sel2.options.length;
+          sel2.options[item] = option;
+        }
+     
+      }
+      function delOptions() {
+        var num = document.form1.select2.selectedIndex;
+        if (num>1) 
+          document.form1.select2.options[num] = null;
+       
+      }
+    //-->
+    </Script>
+  </HEAD>  
+  <BODY>
+    <FORM name="form1">
+      <select name="select1" size="10" onDblClick="createOptions()">
+        <option>可选择项目 <option>
+        <option value="幼儿园">幼儿园 
+        <option value="小学">小学
+        <option value="中学">中学 
+        <option value="大学">大学
+      </select>
+      <input type="button" value="选择" onClick="createOptions()">
+      <select name="select2" size="10">
+        <option>选择项目 <option>
+      </select>
+      <input type="button" value="删除" onClick="delOptions()">
+    </FORM>
+  </BODY>
+</HTML>

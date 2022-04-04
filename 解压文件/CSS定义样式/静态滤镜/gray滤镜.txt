@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>设置灰度</title>
+  <style type=text/css>
+  <!--
+  h2{font-family:黑体; font-size:20pt}
+  .gray{filter:gray}
+  
+  -->
+  </style>
+</head>
+<body>
+  <center>
+  <h2>设置灰度效果</h2>
+  </center>
+  <hr>
+  <table>
+    <tr>
+      <td>原始图片</td>
+      <td>模糊方向270度</td>
+     
+    </tr>
+    <tr>
+      <td><img src="image.jpg"></td>
+      <td><img class=gray src="image.jpg"></td>
+     
+    </tr>
+    
+  </table>
+</body>
+</html>
+      

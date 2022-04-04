@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>设置渐变阴影效果</title>
+  <style type=text/css>
+  <!--
+  h2{font-family:黑体; font-size:20pt}
+  .shadow1{position:absolute;top:80px;filter:shadow(color=#0000ff)}
+  .shadow2{position:absolute;top:150px;left:20px;filter:shadow(color=#000000,direction=90)}
+  -->
+  </style>
+</head>
+<body>
+  <center>
+  <h2>设置渐变阴影效果</h2>
+  </center>
+  <hr>
+  <div class=shadow1>
+    <P style="font-family:华文行楷;font-size:45pt;font-weight:bold">
+      渐变阴影效果
+    </P>
+  </div>
+  <div class=shadow2>
+    <P style="font-family:方正行楷;font-size:30pt;font-weight:bold;color:#ff0000">
+      渐变阴影效果
+    </P>
+  </div>
+</body>
+</html>
+      

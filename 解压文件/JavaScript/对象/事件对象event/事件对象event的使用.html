@@ -1,0 +1,32 @@
+<script language="JavaScript" type="text/javascript">
+<!--
+  function getCoordinate(evnt) {
+    if (document.all) {
+      x = event.screenX;
+      y = event.screenY;
+    }
+    else {
+      x = evnt.screenX;
+      y = evnt.screenY; 
+    }
+    status = "Ë®Æ½×ø±ê£º"+ x + "£»´¹Ö±×ø±ê£º"+ y;
+  } 
+
+  function whichKey(evnt) {
+    if (document.all) {
+      x = event.button;
+      if( x==1 ) alert("Äãµ¥»÷ÁË×ó¼ü");
+      if( x==2 ) alert("Äãµ¥»÷ÁËÓÒ¼ü");
+    }
+    else {
+      x = evnt.button;
+      if( x==1 ) alert("Äãµ¥»÷ÁË×ó¼ü");
+      if( x==3 ) alert("Äãµ¥»÷ÁËÓÒ¼ü");
+      return false;
+    }
+  }
+  document.onmousedown = whichKey;
+  document.onmousemove = getCoordinate;
+  document.write("Çëµ¥»÷Êó±ê×ó/ÓÒ¼ü£¬²¢×¢Òâ×´Ì¬À¸µÄÏÔÊ¾£¡");
+//-->
+</script>

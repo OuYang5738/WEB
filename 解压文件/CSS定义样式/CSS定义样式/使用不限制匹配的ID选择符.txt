@@ -1,0 +1,18 @@
+<HTML>
+  <HEAD>
+    <STYLE>
+      #intro
+      {
+        font-size:150%;
+        font-weight:bold;
+        color:#ff0000;
+      }
+    </STYLE>
+  </HEAD>
+  <BODY>
+    <H1 id="intro">
+      这个标题H1是红色加粗，按150％的比例显示的
+    </H1>
+    <P id="intro">这个段落是红色加粗，按150％的比例显示的</P>
+  </BODY>
+</HTML>

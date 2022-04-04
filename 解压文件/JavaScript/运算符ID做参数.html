@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>算术运算符的使用</title>
+</head>
+<body>
+  <script language="javascript">
+    function rec(a,b,c,d){
+
+     alert(c.value);
+      
+     d.value=(a.value*c.value+b.value*c.value)/2;
+      
+      
+      
+    }
+  </script>
+  <form>
+    <h1>梯形面积</h1>
+    上底
+    <input type="text" name="recshort" ID="short"><br>
+    下底
+    <input type="text" name="reclength" ID="length"><br>
+    高度
+    <input type="text" name="recheight" ID="hei"><br>
+    <input name="button" type="button" onclick="rec(short,length,hei,recans)" value="面积">
+    <br>
+    <input type="text" name="recanswers" ID="recans"><br>
+  </form>
+</body>
+</html>

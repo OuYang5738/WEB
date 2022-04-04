@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>onMouseOut事件</title>
+  <style>
+  input.inputsize{font-size:30px}
+  </style>
+</head>
+<body>
+ <form>
+  口令：<input class=inputsize name="kouling" type="text">
+  <input class=inputsize name="anniu" type="button" value="确定" onMouseOut=confirm("不要移开，请单击进入！")>
+  
+ </form> 
+  
+</body>
+</html>

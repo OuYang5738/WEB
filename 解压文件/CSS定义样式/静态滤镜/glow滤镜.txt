@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>设置边缘发光效果</title>
+  <style type=text/css>
+  <!--
+  h2{font-family:黑体; font-size:20pt}
+  .glow1{position:absolute;top:80px;filter:glow(color=#ff0000,strength=5)}
+  .glow2{position:absolute;top:150px;left=50px;filter:glow(color=#0000ff,strength=15)}
+  -->
+  </style>
+</head>
+<body>
+  <center>
+  <h2>设置边缘发光效果</h2>
+  </center>
+  <hr>
+  <div class=glow1>
+    <P style="font-family:华文行楷；font-size:45pt;font-weight:bold;color:#003366">
+      Read The Book！
+    </P>
+  </div>
+  <div class=glow2>
+    <P style="font-family:方正姚体；font-size:30pt;font-weight:bold;color:#00ff66">
+      我选择，我喜欢！
+    </P>
+  </div>
+</body>
+</html>
+      

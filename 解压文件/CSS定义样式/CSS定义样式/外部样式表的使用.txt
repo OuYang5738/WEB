@@ -1,0 +1,14 @@
+<HTML>
+  <HEAD>
+    <STYLE>
+      <LINK rel"stylesheet" href="aDefinedCSS.css" type="text/css">
+     
+    </STYLE>
+  </HEAD>
+  <BODY>
+    <H1 align="right">
+      利用HTML标签很复杂
+    </H1>
+    <P>利用 CSS 更简单</P>
+  </BODY>
+</HTML>

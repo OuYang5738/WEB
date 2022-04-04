@@ -1,0 +1,28 @@
+<HTML>
+  <HEAD>
+    <TITLE>销售业绩</TITLE>
+    <font face="宋体" size="30">
+  </HEAD>
+  <BODY>
+    <TABLE border>
+     <Caption>张三的销售业绩</Caption>
+     <TR><TH>编号</TH><TH>姓名</TH><TH>外销</TH><TH>内销</TH>
+     <TR><TD>0001</TD><TD>张三</TD><TD>45</TD><TD>86</TD>
+     
+    </TABLE>
+
+<TABLE border>
+     <Caption align=right>李四的销售业绩</Caption>
+     <TR><TH>编号</TH><TH>姓名</TH><TH>外销</TH><TH>内销</TH>
+     <TR><TD>0002</TD><TD>李四</TD><TD>45</TD><TD>98</TD>
+     
+    </TABLE>
+
+<TABLE border>
+     <Caption align=left valign=bottom>李四的销售业绩</Caption>
+     <TR><TH>编号</TH><TH>姓名</TH><TH>外销</TH><TH>内销</TH>
+     <TR><TD>0002</TD><TD>李四</TD><TD>45</TD><TD>98</TD>
+     
+    </TABLE>
+  </BODY>
+</HTML>

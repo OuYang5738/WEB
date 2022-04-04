@@ -1,0 +1,15 @@
+<HTML>
+  <HEAD>
+    <STYLE>
+      .center {text-align: center}
+    </STYLE>
+  </HEAD>
+  <BODY>
+    <H1 class="center">
+      这个标题H1是居中排列的
+    </H1>
+    <P class="center">
+      这个段落P也是居中排列的
+    </P>
+  </BODY>
+</HTML>

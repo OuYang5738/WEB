@@ -1,0 +1,11 @@
+<HTML>
+  <HEAD>
+    <TITLE>ÂË¾µDropShadowµÄÓÃ·¨</TITLE>
+  </HEAD>
+  <BODY>
+    <IMG SRC="ray.gif" WIDTH="92"> 
+    <IMG SRC="ray.gif" WIDTH="92" STYLE="filter:progid:DXImageTransform.Microsoft.DropShadow(color=#FF404040,offX=3,offY=3,positives=false);">
+  </BODY>
+</HTML>
+
+

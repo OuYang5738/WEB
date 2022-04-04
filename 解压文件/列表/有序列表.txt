@@ -1,0 +1,17 @@
+<HTML>
+  <HEAD>
+    <TITLE>有序列表</TITLE>
+    <font face="宋体" size="30">
+  </HEAD>
+  <BODY>
+    <P align=center><font color=blue size=40><B>设置列表的种类</B></font></P>
+    <OL type="a">
+     <LI>a类1
+     <LI>a类2
+    </OL>
+     <OL type="I">
+     <LI>I类1
+     <LI type="i">i类2
+    </OL>
+  </BODY>
+</HTML>

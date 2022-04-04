@@ -1,0 +1,20 @@
+<HTML>
+  <HEAD>
+    <TITLE>学生</TITLE>
+  </HEAD>
+  <BODY>
+    <TABLE border width=250 align=center style="font-size:30">
+     <caption>学生名单</caption>
+     <COLGROUP span=2 width=90>
+     <THEAD>
+     <TR><TH>姓名</TH><TH>性别</TH><TH>年龄</TH>
+     </THEAD>
+     
+     <TR><TD>张三</TD><TD>男</TD><TD>23</TD>
+     <TR><TD>李四</TD><TD>女</TD><TD>21</TD>
+    
+     </TABLE>
+    
+    
+  </BODY>
+</HTML>
